@@ -348,7 +348,7 @@ return (
     setState('fetching');
     getData()
       .then((res) => {
-        setState('done');
+        setState('success');
         setData(res);
       })
       .catch((err) => {
